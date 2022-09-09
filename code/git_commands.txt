@@ -15,6 +15,9 @@ git config --global --list
 # get the SSH key
 # type the following
 git clone git@github.com:ricrocha82/climate_viz.git
+# R Studio
+git remote add origin https://github.com/ricrocha82/climate_viz.git
+git remote add git@github.com:ricrocha82/climate_viz.git
 # git commands
 git status
 git add <file>
