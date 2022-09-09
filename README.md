@@ -1,2 +1,2 @@
-# climate_viz
-a project to practice coding, data analysis and visualizations 
+# README
+Repository for a project to practice coding, data analysis and visualizations 
