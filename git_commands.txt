@@ -1,0 +1,10 @@
+# first create a repository in Github website
+# get the SSH key
+# type the following
+git clone git@github.com:ricrocha82/climate_viz.git
+# git commands
+git status
+git add
+git commit -m "message"
+git push
+git pull
