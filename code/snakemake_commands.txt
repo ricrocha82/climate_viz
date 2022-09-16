@@ -1,0 +1,18 @@
+# dry run
+# -n (or --dry-run) flag
+# The -p flag instructs Snakemake to also print the resulting shell command for illustration. 
+snakemake -np <rule>
+snakemake --dry -run <rule>
+
+# run snakemake
+# -c 1 means using one core
+snakemake -c 1
+
+# ps: check "snakefile" to see how to write a snakemake file or
+# go to https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html
+
+# How to visualize the DAG file (Directed Acyclic Graph)
+# frist need to install graphviz
+mamba install -c conda-forge graphviz
+# after installation
+snakemake --dag targets | dot -Tpng > dag.png

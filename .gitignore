@@ -1,1 +1,8 @@
-.Rproj.user
+# if the objects on VSCode are grey, it means that the git is no longer tracking the files
+data/
+
+# snakemake
+.snakemake/
+
+# R
+.Rhistory
