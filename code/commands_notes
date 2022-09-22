@@ -1,0 +1,8 @@
+# to decompress files using tar
+# simple way
+tar xvzf data/ghcnd_all.tar.gz
+# or determining a directory
+tar xvzf data/ghcnd_all.tar.gz -C data/
+# or selecting files
+tar xvzf data/ghcnd_all.tar.gz -C data/ ghcnd_all/ASN00017066.dly ghcnd_all/ASN00008255.dly ghcnd_all/ASN00040510.dly
+
